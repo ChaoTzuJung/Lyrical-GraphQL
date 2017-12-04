@@ -8,7 +8,7 @@ const schema = require('./schema/schema');
 const app = express();
 
 // Replace with your mongoLab URI
-const MONGO_URI = '';
+const MONGO_URI = 'mongodb://liveshare-dev:J122872769@ds115546.mlab.com:15546/liveshare-dev';
 if (!MONGO_URI) {
   throw new Error('You must provide a MongoLab URI');
 }
